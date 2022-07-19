@@ -1,0 +1,22 @@
+{
+  "name": "case-studies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "winston.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenjing/case-studies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenjing/case-studies/issues"
+  },
+  "homepage": "https://github.com/stevenjing/case-studies#readme",
+  "dependencies": {
+    "winston": "^3.8.1"
+  }
+}

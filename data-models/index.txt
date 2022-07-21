@@ -1,0 +1,23 @@
+/*
+* Single point-of-truth
+*
+* "No junk, no confusion"
+* No junk: data model should be kept simple.
+* No confusion: states kept distinct in the real world should be kept distinct in the model.
+*
+* Model residents at the Vajra Vidya Retreat Center.
+*
+*/
+
+
+Resident {
+  name,
+  age,
+  hasPaid,
+  costPerDay,
+  daysStaying: {
+    startDate,
+    endDate,
+  },
+  dietaryRestrictions,
+}
